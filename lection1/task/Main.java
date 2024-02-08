@@ -1,6 +1,4 @@
-package src;
-
-import src.kenobi.Kenobi;
+import kenobi.Kenobi;
 
 public class Main {
     public static void main(String[] args) {

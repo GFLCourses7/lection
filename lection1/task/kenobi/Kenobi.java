@@ -1,4 +1,4 @@
-package src.kenobi;
+package kenobi;
 
 public class Kenobi {
     public Kenobi() {
