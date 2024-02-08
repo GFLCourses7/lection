@@ -10,7 +10,7 @@ import builder.roll.ChickenRollBuilder;
 import builder.roll.FishRollBuilder;
 import director.Director;
 
-public class App {
+public class BuilderApp {
 
     public static void main(String[] args) {
         Director director = new Director();
