@@ -16,7 +16,7 @@ public class Checkup {
         examination = checkupFactory.examsByDoctor();
     }
 
-    public void startCheckup(){
+    public void startCheckup() {
         survey.talkWithPatient();
         examination.conductAnExamination();
         treatment.treatThePatient();

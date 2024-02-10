@@ -6,6 +6,8 @@ import abstract_factory.model.treatment.Treatment;
 
 public interface CheckupFactory {
     Survey talkWithDoctor();
+
     Examination examsByDoctor();
+
     Treatment treatByDoctor();
 }

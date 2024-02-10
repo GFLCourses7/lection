@@ -7,7 +7,7 @@ import abstract_factory.model.survey.Survey;
 import abstract_factory.model.treatment.SurgeonTreatment;
 import abstract_factory.model.treatment.Treatment;
 
-public class SurgeonFactory implements CheckupFactory{
+public class SurgeonFactory implements CheckupFactory {
     @Override
     public Survey talkWithDoctor() {
         return new SurgeonSurvey();

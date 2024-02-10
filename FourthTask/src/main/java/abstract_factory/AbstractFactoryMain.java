@@ -7,7 +7,4 @@ public class AbstractFactoryMain {
         Checkup checkup = CheckupConfig.configureCheckup("hallucinations");
         checkup.startCheckup();
     }
-
-
-
 }

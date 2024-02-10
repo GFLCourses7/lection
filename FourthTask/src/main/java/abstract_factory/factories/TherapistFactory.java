@@ -7,7 +7,7 @@ import abstract_factory.model.survey.TherapistSurvey;
 import abstract_factory.model.treatment.TherapistTreatment;
 import abstract_factory.model.treatment.Treatment;
 
-public class TherapistFactory implements CheckupFactory{
+public class TherapistFactory implements CheckupFactory {
     @Override
     public Survey talkWithDoctor() {
         return new TherapistSurvey();
