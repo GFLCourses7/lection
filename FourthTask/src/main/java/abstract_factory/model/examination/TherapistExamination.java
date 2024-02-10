@@ -5,6 +5,6 @@ import abstract_factory.model.examination.Examination;
 public class TherapistExamination implements Examination {
     @Override
     public void conductAnExamination() {
-
+        System.out.println("Inhale than exhale");
     }
 }

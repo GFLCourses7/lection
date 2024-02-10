@@ -1,4 +1,4 @@
-package abstract_factory.model;
+package abstract_factory.model.treatment;
 
 public interface Treatment {
 
