@@ -1,3 +1,5 @@
+package dto;
+
 import java.util.Objects;
 
 public class UserData {
@@ -54,7 +56,7 @@ public class UserData {
 
     @Override
     public String toString() {
-        return "UserData{" +
+        return "dto.UserData{" +
                 "login='" + login + '\'' +
                 ", password='" + password + '\'' +
                 ", timestamp=" + timestamp +

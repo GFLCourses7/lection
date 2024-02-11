@@ -1,3 +1,4 @@
+import data.UserData;
 
 public class Main {
 
@@ -7,8 +8,7 @@ public class Main {
 
     private void start() {
 
-        UserData userData = new UserData.Builder()
-                .setLogin("user")
+        UserData userData = new UserData.Builder("user")
                 .setPassword("password")
                 .setTimestamp(123456L)
                 .build();

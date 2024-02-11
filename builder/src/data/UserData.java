@@ -1,3 +1,4 @@
+package data;
 
 public class UserData {
 
@@ -13,15 +14,13 @@ public class UserData {
 
         private final UserData userData;
 
-        public Builder() {
+        // Set necessary data
+        public Builder(String login) {
             userData = new UserData();
-        }
-
-        public Builder setLogin(String login) {
             userData.login = login;
-            return this;
         }
 
+        // Set optional data
         public Builder setPassword(String password) {
             userData.password = password;
             return this;
@@ -40,7 +39,7 @@ public class UserData {
 
     @Override
     public String toString() {
-        return "UserData{" +
+        return "data.UserData{" +
                 "login='" + login + '\'' +
                 ", password='" + password + '\'' +
                 ", timestamp=" + timestamp +
