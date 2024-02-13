@@ -1,5 +1,5 @@
 TO RUN:
 
-javac -d out models/Car.java service/CarService.java Main.java
+javac -d out models/Car.java service/CarService.java facade.Main.java
 
-java -cp out Main
+java -cp out facade.Main
