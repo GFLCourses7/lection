@@ -1,4 +1,6 @@
-package pub_sub;
+package pub_sub.publisher;
+
+import pub_sub.subscriber.Subscriber;
 
 public interface Publisher {
 

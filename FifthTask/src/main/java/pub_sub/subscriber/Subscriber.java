@@ -1,4 +1,4 @@
-package pub_sub;
+package pub_sub.subscriber;
 
 import java.util.List;
 

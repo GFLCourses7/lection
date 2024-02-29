@@ -1,4 +1,9 @@
-package pub_sub;
+package pub_sub.publisher.impl;
+
+import pub_sub.publisher.Publisher;
+import pub_sub.subscriber.Subscriber;
+import pub_sub.topics.Topics;
+import pub_sub.util.MessageGenerator;
 
 import java.util.*;
 

@@ -1,4 +1,6 @@
-package pub_sub;
+package pub_sub.util;
+
+import pub_sub.topics.Topics;
 
 import java.util.*;
 

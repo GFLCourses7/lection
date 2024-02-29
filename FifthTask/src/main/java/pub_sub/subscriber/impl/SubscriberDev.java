@@ -1,4 +1,6 @@
-package pub_sub;
+package pub_sub.subscriber.impl;
+
+import pub_sub.subscriber.Subscriber;
 
 import java.util.List;
 

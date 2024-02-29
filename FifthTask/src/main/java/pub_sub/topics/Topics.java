@@ -1,4 +1,4 @@
-package pub_sub;
+package pub_sub.topics;
 
 public class Topics {
     public static final String TOPIC_INFO = "info";
